@@ -28,8 +28,22 @@ module.exports = (theme) => [
         },
     },
     {
+        name: 'Storage',
+        scope: 'storage.type, storage.modifier',
+        settings: {
+            foreground: theme.purple,
+        },
+    },
+    {
+        name: 'Boolean',
+        scope: 'constant.language.boolean',
+        settings: {
+            foreground: theme.orange,
+        },
+    },
+    {
         name: 'Operator',
-        scope: 'keyword.operator',
+        scope: 'keyword.operator, storage.type.function.arrow',
         settings: {
             foreground: theme.magenta,
         },
@@ -37,13 +51,6 @@ module.exports = (theme) => [
     {
         name: 'Template Literal Nesting Templates',
         scope: 'punctuation.definition.template-expression',
-        settings: {
-            foreground: theme.fg2,
-        },
-    },
-    {
-        name: 'Storage',
-        scope: 'storage.type, storage.modifier',
         settings: {
             foreground: theme.fg2,
         },
@@ -150,7 +157,14 @@ module.exports = (theme) => [
         name: 'Markup Heading',
         scope: 'markup.heading',
         settings: {
-            foreground: theme.yellow,
+            foreground: theme.orange,
+        },
+    },
+    {
+        name: 'Markup Link',
+        scope: 'markup.underline.link',
+        settings: {
+            foreground: theme.purple,
         },
     },
     {

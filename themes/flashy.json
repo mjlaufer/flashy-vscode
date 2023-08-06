@@ -136,6 +136,8 @@
     "editorGutter.modifiedBackground": "#66b9b7",
     "editorGutter.addedBackground": "#74c792",
     "editorGutter.deletedBackground": "#f98660",
+    "diffEditor.insertedLineBackground": "#2c3730",
+    "diffEditor.removedLineBackground": "#3a2723",
     "diffEditor.insertedTextBackground": "#2c3730",
     "diffEditor.removedTextBackground": "#3a2723",
     "editorWidget.background": "#262626",
@@ -271,15 +273,24 @@
       "scope": "keyword, constant.language",
       "settings": { "foreground": "#bf9af7" }
     },
-    { "name": "Operator", "scope": "keyword.operator", "settings": { "foreground": "#f67ebb" } },
-    {
-      "name": "Template Literal Nesting Templates",
-      "scope": "punctuation.definition.template-expression",
-      "settings": { "foreground": "#a0a0a0" }
-    },
     {
       "name": "Storage",
       "scope": "storage.type, storage.modifier",
+      "settings": { "foreground": "#bf9af7" }
+    },
+    {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": { "foreground": "#e4a452" }
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator, storage.type.function.arrow",
+      "settings": { "foreground": "#f67ebb" }
+    },
+    {
+      "name": "Template Literal Nesting Templates",
+      "scope": "punctuation.definition.template-expression",
       "settings": { "foreground": "#a0a0a0" }
     },
     { "name": "String", "scope": "string", "settings": { "foreground": "#74c792" } },
@@ -351,7 +362,12 @@
     {
       "name": "Markup Heading",
       "scope": "markup.heading",
-      "settings": { "foreground": "#cdb55c" }
+      "settings": { "foreground": "#e4a452" }
+    },
+    {
+      "name": "Markup Link",
+      "scope": "markup.underline.link",
+      "settings": { "foreground": "#bf9af7" }
     },
     {
       "name": "Inserted",

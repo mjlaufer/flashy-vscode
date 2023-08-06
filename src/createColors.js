@@ -178,10 +178,10 @@ module.exports = (colors) => ({
     'editorGutter.deletedBackground': colors.red,
 
     // Diff Editor Colors - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
+    'diffEditor.insertedLineBackground': colors.greenDiff,
+    'diffEditor.removedLineBackground': colors.redDiff,
     'diffEditor.insertedTextBackground': colors.greenDiff,
-    // 'diffEditor.insertedTextBorder': colors.greenDiff,
     'diffEditor.removedTextBackground': colors.redDiff,
-    // 'diffEditor.removedTextBorder': colors.redDiff`,
 
     // Editor Widget Colors - https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
     'editorWidget.background': colors.bg2,
