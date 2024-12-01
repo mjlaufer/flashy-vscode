@@ -279,6 +279,11 @@
       "settings": { "foreground": "#bf9af7" }
     },
     {
+      "name": "Language-specific variables",
+      "scope": "variable.language",
+      "settings": { "foreground": "#bf9af7" }
+    },
+    {
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": { "foreground": "#e4a452" }
@@ -293,7 +298,11 @@
       "scope": "punctuation.definition.template-expression",
       "settings": { "foreground": "#a0a0a0" }
     },
-    { "name": "String", "scope": "string", "settings": { "foreground": "#74c792" } },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": { "foreground": "#74c792" }
+    },
     {
       "name": "Number",
       "scope": "constant.numeric, keyword.other.unit",
@@ -307,11 +316,6 @@
     {
       "name": "Function, Special Method, Block Level",
       "scope": "entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level",
-      "settings": { "foreground": "#6fb1e7" }
-    },
-    {
-      "name": "Language methods, Sub-methods",
-      "scope": "variable.language",
       "settings": { "foreground": "#6fb1e7" }
     },
     {

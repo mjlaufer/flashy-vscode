@@ -1,11 +1,10 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2022
+    "ecmaVersion": 2023
   },
   "env": {
-    "es2022": true,
+    "es2023": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "prettier"],
-  "plugins": ["prettier"]
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"]
 }

@@ -35,6 +35,13 @@ module.exports = (theme) => [
         },
     },
     {
+        name: 'Language-specific variables',
+        scope: 'variable.language',
+        settings: {
+            foreground: theme.purple,
+        },
+    },
+    {
         name: 'Boolean',
         scope: 'constant.language.boolean',
         settings: {
@@ -79,13 +86,6 @@ module.exports = (theme) => [
     {
         name: 'Function, Special Method, Block Level',
         scope: 'entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level',
-        settings: {
-            foreground: theme.blue,
-        },
-    },
-    {
-        name: 'Language methods, Sub-methods',
-        scope: 'variable.language',
         settings: {
             foreground: theme.blue,
         },

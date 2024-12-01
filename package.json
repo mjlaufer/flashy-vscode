@@ -10,7 +10,7 @@
     "url": "https://github.com/mjlaufer/flashy-vscode"
   },
   "engines": {
-    "vscode": "^1.41.0"
+    "vscode": "^1.80.0"
   },
   "keywords": [
     "theme"
@@ -31,9 +31,9 @@
     "build": "node src/index.js"
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.1"
   }
 }
