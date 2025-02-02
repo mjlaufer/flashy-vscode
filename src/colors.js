@@ -25,7 +25,11 @@ module.exports = {
     redDiag: '#db5454',
     yellowDiag: '#a19057',
     cyanDiag: '#639493',
+    blueDiag: '#6090b9',
 
     redDiff: '#422323',
     greenDiff: '#2c3730',
+    cyanDiff: '#283232',
+    cyanDiffBright: '#354545',
+    blueDiff: '#263645',
 };
