@@ -157,7 +157,7 @@ module.exports = (theme) => [
         name: 'Markup Heading',
         scope: 'markup.heading',
         settings: {
-            foreground: theme.orange,
+            foreground: theme.blue,
         },
     },
     {
