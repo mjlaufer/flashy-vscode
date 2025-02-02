@@ -6,8 +6,8 @@ module.exports = {
     fg2: '#a0a0a0',
     fg3: '#818181',
 
-    red: '#f98660',
-    redBright: '#ff9474',
+    red: '#f87171',
+    redBright: '#fb7d7d',
     yellow: '#cdb55c',
     yellowBright: '#dec573',
     green: '#74c792',
@@ -22,10 +22,10 @@ module.exports = {
     orange: '#e4a452',
     purple: '#bf9af7',
 
-    redDiag: '#bf6a50',
+    redDiag: '#db5454',
     yellowDiag: '#a19057',
     cyanDiag: '#639493',
 
-    redDiff: '#3a2723',
+    redDiff: '#422323',
     greenDiff: '#2c3730',
 };
