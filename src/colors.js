@@ -17,7 +17,7 @@ module.exports = {
     blue: '#6fb1e7',
     blueBright: '#8cbbe6',
     magenta: '#f67ebb',
-    magentaBright: '#ed9fc4',
+    magentaBright: '#f998c7',
 
     orange: '#e4a452',
     purple: '#bf9af7',
